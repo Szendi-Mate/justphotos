@@ -1,0 +1,111 @@
+.logo{
+    background-color: rgb(0, 119, 255);
+    border-bottom-right-radius: 10px;
+    padding: .5vw;
+    color: white;
+    
+    width: fit-content;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo img{
+    height: 5vh;
+}
+
+footer{
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    color: white;
+    background-color: rgb(18, 149, 182);
+    font-weight: bold;
+    bottom: 0;
+    border-top-left-radius: 5px;
+    padding: 5px;
+    padding-top: 0;
+}
+
+footer small{
+    font-size: 1vw;
+}
+
+.thumbnail{
+    width: 20vw;
+    height: 20vw;
+}
+
+.thumbnail img{
+    object-fit: cover;
+    width: 20vw;
+    height: 20vw;
+    padding: 3px;
+    opacity: 100%;
+    
+}
+
+.gallery{
+    width: 80vw;
+    margin: auto;
+    padding-top: 12vh;
+    padding-bottom: 8vh;
+}
+
+.thumbnail a:hover img{
+    object-fit: cover;
+    padding: 0px;
+    
+    opacity: 80%;
+}
+
+.view{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 5vw;
+    padding-top: 15vh;
+    color: darkslategray;
+}
+
+.view img{
+    max-width: 50vw;
+    max-height: 50vh;
+}
+
+.right-btn{
+    position: fixed;
+    right: 0;
+    top:0;
+    padding: 10px;
+    height: 10vh;
+    width: fit-content;
+    opacity: 100%;   
+}
+
+.right-btn img{
+    
+    height: 10vh;
+}
+
+.right-btn img:hover{
+    opacity: 80%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
