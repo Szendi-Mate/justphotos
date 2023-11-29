@@ -23,7 +23,7 @@ session_start();
         if(isset($_SESSION['email'])){
           echo '<div class="right-btn"><a class=""  data-bs-toggle="modal" data-bs-target="#uploadModal"><img src="./imgs/plus.svg"></a><a class="btn btn-danger ms-2" href="./logout.php">Logout</a></div>';
         }else{
-          echo '<div class="right-btn"><a class="btn btn-primary" href="./login.php">Login</a></div>';
+          echo '<div class="right-btn"><a class="btn btn-outline-primary me-3" href="./reg.php">Registration</a><a class="btn btn-primary" href="./login.php">Login</a></div>';
         }
       ?>
       

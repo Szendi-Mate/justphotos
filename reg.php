@@ -20,7 +20,7 @@ $conn = new kapcsolat();
       
     </header>
     <main class="p-5">
-        <form method="POST" class="form form-control mt-5">
+        <form method="POST" class="form form-control text-center mt-5">
             <h3>Registration:</h3>
             <input class="form-control mb-2" type="text" name="username" placeholder="Username">
             
